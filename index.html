@@ -34,7 +34,7 @@
             <a class="nav-link" href="index.html">HOME</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT</a>
+            <a class="nav-link" href="aboutus.html">ABOUT</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">MENU</a>
@@ -61,28 +61,28 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url('img/sinigang.png')">
+        <div class="carousel-item active" id="homeCarouselItem" style="background-image: url('img/sinigang.png')">
           <div class="carousel-caption d-none d-md-block">
             <h2 class="display-4">Food</h2>
             <p class="lead">Take a bite into delicious Filipino comfort food!</p>
           </div>
         </div>
-        <!-- Slide Two - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('img/adobo3.png')">
+        <!-- Slide Two -->
+        <div class="carousel-item" id="homeCarouselItem" style="background-image: url('img/adobo3.png')">
           <div class="carousel-caption d-none d-md-block">
             <h2 class="display-4">Family</h2>
             <p class="lead">Spend quality time with your loved ones with good food and great conversation!</p>
           </div>
         </div>
-        <!-- Slide Three - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('img/spaghetti.png')">
+        <!-- Slide Three -->
+        <div class="carousel-item" id="homeCarouselItem" style="background-image: url('img/spaghetti.png')">
           <div class="carousel-caption d-none d-md-block">
             <h2 class="display-4">Fun</h2>
             <p class="lead">Have fun experiencing the taste of the Fiipino islands!</p>
           </div>
         </div>
-        <!-- Slide Four - Set the background image for this slide in the line below -->
-        <div class="carousel-item" style="background-image: url('img/karekare.jpg')">
+        <!-- Slide Four -->
+        <div class="carousel-item" id="homeCarouselItem" style="background-image: url('img/karekare.jpg')">
           <div class="carousel-caption d-none d-md-block">
             <h2 class="display-4">Filipino culture</h2>
             <p class="lead">Keep the culture alive by spreading the word about our amaizng food!</p>
@@ -108,22 +108,20 @@
     <div class="container">
       <div class="row">
         <!-- LINKS -->
-        <div class="col col-sm-1">
-          <h3>Links</h3>
+        <div class="col col-sm-2 text-center">
+          <h3>Where to?</h3>
           <ul class="list-unstyled">
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="aboutus.html">About</a></li>
             <li><a href="#">Menu</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </div>
 
         <!-- SUBSCRIPTION -->
-        <div class="col col-sm-5 text-center">
-          <h3>Subscribe to get latest updates about everything Filipino Kitchen!</h3>
-          <!-- <p>Get all the latest updates about everything Filipino Kitchen! New dishes, lcoations and more!</p> 
-              <img src="img/subscribe.png" alt="Subsribe" height="150px" /> -->
-          <div class="offset-1">
+        <div class="col col-sm-4 text-center">
+          <h3>Subscribe for updates on new items, locations, and more!</h3>
+          <div class="offset">
             <form>
               <input type="email" class="form-control" id="emailInput" placeholder="Email address">
             </form>
@@ -149,7 +147,8 @@
 
         <!-- CONTACT INFO -->
         <div class="col col-sm-3 text-center">
-          <div style="text-align: left;">
+          <h3>Keep in touch!</h3>
+          <div>
             <a role="button" class="btn btn-link"
               href="https://www.google.com/maps/dir//island+gourmet/@38.02571,-121.3597165,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x80900956487db9d7:0x9c257ce301f80e99!2m2!1d-121.3551142!2d38.0229982">
               <i class="fa fa-map-marker"></i>
