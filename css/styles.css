@@ -1,5 +1,8 @@
 body {
     font-family: "Open Sans", sans-serif;
+    background-image: url("img/background.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
 }
 
 h1, h2, h3 {
@@ -7,11 +10,11 @@ h1, h2, h3 {
 }
 
 .site-footer {
-    background-color: rgb(95, 70, 70);
+    background-color: rgb(68, 59, 63);
     padding: 20px 0; }
 
 .navbar {
-    background-color: rgb(95, 70, 70);
+    background-color:  rgb(68, 59, 63);
 }
 
 .navbar-nav {
@@ -42,3 +45,12 @@ h1, h2, h3 {
     background-color: #d1cbcb;
 }
 
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
