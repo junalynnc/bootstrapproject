@@ -3,7 +3,7 @@ Project I created for my Bootstrap Class
 
 ### Description
 
-This is my project I created for the bootstrap portion of a Fullstack Web Development bootcamp I took at www.nucamp.co. I create a mock restaurant called Filipino Kitchen and you can order online traditional Filipino dishes.
+This is my project I created for the bootstrap portion of a Fullstack Web Development bootcamp I took at www.nucamp.co. I created a mock restaurant website called Filipino Kitchen, where we serve traditional Filipino dishes.
 
 # Features
 - Navigation bar & footer links
