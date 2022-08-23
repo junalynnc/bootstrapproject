@@ -1,5 +1,4 @@
 # Filipino Kitchen
-Project I created for my Bootstrap Class
 
 ### Description
 
