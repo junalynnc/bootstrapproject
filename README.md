@@ -31,5 +31,5 @@ This is my project I created for the bootstrap portion of a Fullstack Web Develo
 ### Developers
 Junalynn Caoli - https://github.com/junalynnc
 
-# Live Website by GitHub Pages
-See my project live at https://junalynnc.github.io/bootstrapproject/
+# See my project live using GitHub Pages!
+https://junalynnc.github.io/bootstrapproject/
